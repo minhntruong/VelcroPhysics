@@ -34,8 +34,7 @@ We have tons of features!
 ## Packages
 You can use VelcroPhysics as a normal .NET library. We also have zero-copy integration with [MonoGame](http://www.monogame.net/).
 
-* [![NuGet](https://img.shields.io/nuget/v/Genbox.VelcroPhysics.svg?style=flat-square&label=Library)](https://www.nuget.org/packages/Genbox.VelcroPhysics/)
-* [![NuGet](https://img.shields.io/nuget/v/Genbox.VelcroPhysics.MonoGame.svg?style=flat-square&label=MonoGame)](https://www.nuget.org/packages/Genbox.VelcroPhysics.MonoGame/)
+Nuget packages TBD
 
 ## Sponsored Project
 This is a [sponsored project](https://github.com/sponsors/Genbox). That means in order to create issues and pull requests, or use the project commercially, you must become a sponsor. Projects like this take up a lot of time and effort, so please help keeping open-source projects alive by becoming a sponsor today. You can stop your sponsorship anytime you want.
