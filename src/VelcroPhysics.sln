@@ -1,12 +1,55 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31129.286
-MinimumVisualStudioVersion = 15.0.26124.0
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VelcroPhysics", "VelcroPhysics\VelcroPhysics.csproj", "{CA4BCD54-BEAC-4390-8881-B7FB9DE16D3F}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "VelcroPhysics._Shared", "VelcroPhysics._Shared\VelcroPhysics._Shared.shproj", "{A0CDBD0E-3A41-42B7-9425-A838BC2C7383}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VelcroPhysics.Benchmarks", "VelcroPhysics.Benchmarks\VelcroPhysics.Benchmarks.csproj", "{6870463C-D00A-49C6-9CDE-21BB838C3750}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VelcroPhysics.WindowsDX", "VelcroPhysics.WindowsDX\VelcroPhysics.WindowsDX.csproj", "{3C6BCF1B-01DC-36CF-2B76-CC4D752CFA31}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VelcroPhysics.Tests", "VelcroPhysics.Tests\VelcroPhysics.Tests.csproj", "{61187505-7CCE-4E78-9272-A971C556BF82}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VelcroPhysics.DesktopGL", "VelcroPhysics.DesktopGL\VelcroPhysics.DesktopGL.csproj", "{E9392E99-BCD9-FEB8-03CD-22B5E5CB0BD2}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Utils.DebugView._Shared", "Utils.DebugView._Shared\Utils.DebugView._Shared.shproj", "{C778DA92-DC0D-4A61-BA27-32F37E29108F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils.DebugView.DesktopGL", "Utils.DebugView.DesktopGL\Utils.DebugView.DesktopGL.csproj", "{E8EFD0D6-BD56-FEFE-8E1C-7A25187DB2E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils.DebugView.WindowsDX", "Utils.DebugView.WindowsDX\Utils.DebugView.WindowsDX.csproj", "{0E936019-7BAF-580B-152F-CC5575A80685}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Samples.HelloWorld._Shared", "Samples.HelloWorld._Shared\Samples.HelloWorld._Shared.shproj", "{429F23D3-DE61-4328-898A-EF824D2C5BB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.HelloWorld.DesktopGL", "Samples.HelloWorld.DesktopGL\Samples.HelloWorld.DesktopGL.csproj", "{D90B833C-F3ED-3AB2-A898-214CC8B4769B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.HelloWorld.WindowsDX", "Samples.HelloWorld.WindowsDX\Samples.HelloWorld.WindowsDX.csproj", "{048DD946-D3EB-26C7-CB45-761ED70A1F3C}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Samples.Testbed._Shared", "Samples.Testbed._Shared\Samples.Testbed._Shared.shproj", "{FA4A2832-7A72-47B0-B6AE-BBACE3DFCC0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Testbed.WindowsDX", "Samples.Testbed.WindowsDX\Samples.Testbed.WindowsDX.csproj", "{3858B845-9C85-38E1-1F97-36742BB8D47B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Testbed.DesktopGL", "Samples.Testbed.DesktopGL\Samples.Testbed.DesktopGL.csproj", "{CE7A8CEF-40D4-F788-1E55-AC5D8D7E8821}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Content.SVGImport.DesktopGL", "Content.SVGImport.DesktopGL\Content.SVGImport.DesktopGL.csproj", "{4C11C67B-6C1E-7A35-CCF1-5576620DAE34}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Content.SVGImport._Shared", "Content.SVGImport._Shared\Content.SVGImport._Shared.shproj", "{F8407EB8-639C-4980-81F0-824D67FB9940}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Content.SVGImport.WindowsDX", "Content.SVGImport.WindowsDX\Content.SVGImport.WindowsDX.csproj", "{7A542726-F4EA-26B7-04F0-E33394CEDF07}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Content.TextureToVertices._Shared", "Content.TextureToVertices._Shared\Content.TextureToVertices._Shared.shproj", "{8C40E9B7-5E29-41B1-B086-7CA76EB30F23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Content.TextureToVertices.DesktopGL", "Content.TextureToVertices.DesktopGL\Content.TextureToVertices.DesktopGL.csproj", "{34A8FF80-FBCD-4A5F-ADE4-4257CF96C991}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Content.TextureToVertices.WindowsDX", "Content.TextureToVertices.WindowsDX\Content.TextureToVertices.WindowsDX.csproj", "{88A62159-4FAB-4B9B-8343-16B7383401A1}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Samples.Demo._Shared", "Samples.Demo._Shared\Samples.Demo._Shared.shproj", "{8EC58CDB-199B-428C-9009-A98230F23AF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Demo.DesktopGL", "Samples.Demo.DesktopGL\Samples.Demo.DesktopGL.csproj", "{DB319789-94FC-6E70-5177-D4B91ED8382C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Demo.WindowsDX", "Samples.Demo.WindowsDX\Samples.Demo.WindowsDX.csproj", "{60F7CB3D-0E96-4EFA-B29E-9C534128B26A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{D5F72408-6901-469C-B915-71BCF985844C}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Benchmarks._Shared", "Benchmarks._Shared\Benchmarks._Shared.shproj", "{2188BABB-409B-446F-B557-CE8B4C47D223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.DesktopGL", "Benchmarks.DesktopGL\Benchmarks.DesktopGL.csproj", "{A6CAB929-7F9F-4F64-85B3-67AA94DCE8B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,23 +57,100 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CA4BCD54-BEAC-4390-8881-B7FB9DE16D3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CA4BCD54-BEAC-4390-8881-B7FB9DE16D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CA4BCD54-BEAC-4390-8881-B7FB9DE16D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CA4BCD54-BEAC-4390-8881-B7FB9DE16D3F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6870463C-D00A-49C6-9CDE-21BB838C3750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6870463C-D00A-49C6-9CDE-21BB838C3750}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6870463C-D00A-49C6-9CDE-21BB838C3750}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6870463C-D00A-49C6-9CDE-21BB838C3750}.Release|Any CPU.Build.0 = Release|Any CPU
-		{61187505-7CCE-4E78-9272-A971C556BF82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{61187505-7CCE-4E78-9272-A971C556BF82}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{61187505-7CCE-4E78-9272-A971C556BF82}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{61187505-7CCE-4E78-9272-A971C556BF82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C6BCF1B-01DC-36CF-2B76-CC4D752CFA31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C6BCF1B-01DC-36CF-2B76-CC4D752CFA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C6BCF1B-01DC-36CF-2B76-CC4D752CFA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C6BCF1B-01DC-36CF-2B76-CC4D752CFA31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9392E99-BCD9-FEB8-03CD-22B5E5CB0BD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9392E99-BCD9-FEB8-03CD-22B5E5CB0BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9392E99-BCD9-FEB8-03CD-22B5E5CB0BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9392E99-BCD9-FEB8-03CD-22B5E5CB0BD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8EFD0D6-BD56-FEFE-8E1C-7A25187DB2E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8EFD0D6-BD56-FEFE-8E1C-7A25187DB2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8EFD0D6-BD56-FEFE-8E1C-7A25187DB2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8EFD0D6-BD56-FEFE-8E1C-7A25187DB2E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E936019-7BAF-580B-152F-CC5575A80685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E936019-7BAF-580B-152F-CC5575A80685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E936019-7BAF-580B-152F-CC5575A80685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E936019-7BAF-580B-152F-CC5575A80685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D90B833C-F3ED-3AB2-A898-214CC8B4769B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D90B833C-F3ED-3AB2-A898-214CC8B4769B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D90B833C-F3ED-3AB2-A898-214CC8B4769B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D90B833C-F3ED-3AB2-A898-214CC8B4769B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{048DD946-D3EB-26C7-CB45-761ED70A1F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{048DD946-D3EB-26C7-CB45-761ED70A1F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{048DD946-D3EB-26C7-CB45-761ED70A1F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{048DD946-D3EB-26C7-CB45-761ED70A1F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3858B845-9C85-38E1-1F97-36742BB8D47B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3858B845-9C85-38E1-1F97-36742BB8D47B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3858B845-9C85-38E1-1F97-36742BB8D47B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3858B845-9C85-38E1-1F97-36742BB8D47B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE7A8CEF-40D4-F788-1E55-AC5D8D7E8821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7A8CEF-40D4-F788-1E55-AC5D8D7E8821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7A8CEF-40D4-F788-1E55-AC5D8D7E8821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7A8CEF-40D4-F788-1E55-AC5D8D7E8821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C11C67B-6C1E-7A35-CCF1-5576620DAE34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C11C67B-6C1E-7A35-CCF1-5576620DAE34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C11C67B-6C1E-7A35-CCF1-5576620DAE34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C11C67B-6C1E-7A35-CCF1-5576620DAE34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A542726-F4EA-26B7-04F0-E33394CEDF07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A542726-F4EA-26B7-04F0-E33394CEDF07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A542726-F4EA-26B7-04F0-E33394CEDF07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A542726-F4EA-26B7-04F0-E33394CEDF07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34A8FF80-FBCD-4A5F-ADE4-4257CF96C991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A8FF80-FBCD-4A5F-ADE4-4257CF96C991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A8FF80-FBCD-4A5F-ADE4-4257CF96C991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A8FF80-FBCD-4A5F-ADE4-4257CF96C991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A62159-4FAB-4B9B-8343-16B7383401A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A62159-4FAB-4B9B-8343-16B7383401A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A62159-4FAB-4B9B-8343-16B7383401A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A62159-4FAB-4B9B-8343-16B7383401A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB319789-94FC-6E70-5177-D4B91ED8382C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB319789-94FC-6E70-5177-D4B91ED8382C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB319789-94FC-6E70-5177-D4B91ED8382C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB319789-94FC-6E70-5177-D4B91ED8382C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F7CB3D-0E96-4EFA-B29E-9C534128B26A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F7CB3D-0E96-4EFA-B29E-9C534128B26A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F7CB3D-0E96-4EFA-B29E-9C534128B26A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F7CB3D-0E96-4EFA-B29E-9C534128B26A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5F72408-6901-469C-B915-71BCF985844C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F72408-6901-469C-B915-71BCF985844C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F72408-6901-469C-B915-71BCF985844C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F72408-6901-469C-B915-71BCF985844C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6CAB929-7F9F-4F64-85B3-67AA94DCE8B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6CAB929-7F9F-4F64-85B3-67AA94DCE8B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6CAB929-7F9F-4F64-85B3-67AA94DCE8B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6CAB929-7F9F-4F64-85B3-67AA94DCE8B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AA5AE6EB-9A14-4231-B366-D2C70B630712}
+		SolutionGuid = {6DFC5282-51E6-4F6C-9D09-EBEE366A1084}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Samples.HelloWorld._Shared\Samples.HelloWorld._Shared.projitems*{048dd946-d3eb-26c7-cb45-761ed70a1f3c}*SharedItemsImports = 5
+		Utils.DebugView._Shared\VelcroPhysics.DebugView.Shared.projitems*{0e936019-7baf-580b-152f-cc5575a80685}*SharedItemsImports = 5
+		Benchmarks._Shared\Benchmarks._Shared.projitems*{2188babb-409b-446f-b557-ce8b4c47d223}*SharedItemsImports = 13
+		Content.TextureToVertices._Shared\Content.TextureToVertices._Shared.projitems*{34a8ff80-fbcd-4a5f-ade4-4257cf96c991}*SharedItemsImports = 5
+		Samples.Testbed._Shared\VelcroPhysics.Samples.Testbed.Shared.projitems*{3858b845-9c85-38e1-1f97-36742bb8d47b}*SharedItemsImports = 5
+		VelcroPhysics._Shared\VelcroPhysics.Shared.projitems*{3c6bcf1b-01dc-36cf-2b76-cc4d752cfa31}*SharedItemsImports = 5
+		Samples.HelloWorld._Shared\Samples.HelloWorld._Shared.projitems*{429f23d3-de61-4328-898a-ef824d2c5bb7}*SharedItemsImports = 13
+		Content.SVGImport._Shared\Content.SVGImport._Shared.projitems*{4c11c67b-6c1e-7a35-ccf1-5576620dae34}*SharedItemsImports = 5
+		Samples.Demo._Shared\Samples.Demo._Shared.projitems*{60f7cb3d-0e96-4efa-b29e-9c534128b26a}*SharedItemsImports = 5
+		Content.SVGImport._Shared\Content.SVGImport._Shared.projitems*{7a542726-f4ea-26b7-04f0-e33394cedf07}*SharedItemsImports = 5
+		Content.TextureToVertices._Shared\Content.TextureToVertices._Shared.projitems*{88a62159-4fab-4b9b-8343-16b7383401a1}*SharedItemsImports = 5
+		Content.TextureToVertices._Shared\Content.TextureToVertices._Shared.projitems*{8c40e9b7-5e29-41b1-b086-7ca76eb30f23}*SharedItemsImports = 13
+		Samples.Demo._Shared\Samples.Demo._Shared.projitems*{8ec58cdb-199b-428c-9009-a98230f23af5}*SharedItemsImports = 13
+		VelcroPhysics._Shared\VelcroPhysics.Shared.projitems*{a0cdbd0e-3a41-42b7-9425-a838bc2c7383}*SharedItemsImports = 13
+		Benchmarks._Shared\Benchmarks._Shared.projitems*{a6cab929-7f9f-4f64-85b3-67aa94dce8b1}*SharedItemsImports = 5
+		Utils.DebugView._Shared\VelcroPhysics.DebugView.Shared.projitems*{c778da92-dc0d-4a61-ba27-32f37e29108f}*SharedItemsImports = 13
+		Samples.Testbed._Shared\VelcroPhysics.Samples.Testbed.Shared.projitems*{ce7a8cef-40d4-f788-1e55-ac5d8d7e8821}*SharedItemsImports = 5
+		Samples.HelloWorld._Shared\Samples.HelloWorld._Shared.projitems*{d90b833c-f3ed-3ab2-a898-214cc8b4769b}*SharedItemsImports = 5
+		Samples.Demo._Shared\Samples.Demo._Shared.projitems*{db319789-94fc-6e70-5177-d4b91ed8382c}*SharedItemsImports = 5
+		Utils.DebugView._Shared\VelcroPhysics.DebugView.Shared.projitems*{e8efd0d6-bd56-fefe-8e1c-7a25187db2e5}*SharedItemsImports = 5
+		VelcroPhysics._Shared\VelcroPhysics.Shared.projitems*{e9392e99-bcd9-feb8-03cd-22b5e5cb0bd2}*SharedItemsImports = 5
+		Content.SVGImport._Shared\Content.SVGImport._Shared.projitems*{f8407eb8-639c-4980-81f0-824d67fb9940}*SharedItemsImports = 13
+		Samples.Testbed._Shared\VelcroPhysics.Samples.Testbed.Shared.projitems*{fa4a2832-7a72-47b0-b6ae-bbace3dfcc0c}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal

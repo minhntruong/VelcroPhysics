@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>6efba8a9-a407-4029-bdd0-651d22a87386</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Samples.HelloWorld._Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Game1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Content\bin\Linux\Content\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Content\obj\Linux\Content\" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\bin\DesktopGL\Content\CircleSprite.xnb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\bin\DesktopGL\Content\Font.xnb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\bin\DesktopGL\Content\GroundSprite.xnb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\CircleSprite.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Font.spritefont" />
+    <None Include="$(MSBuildThisFileDirectory)Content\GroundSprite.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\obj\DesktopGL\net8.0\Content\.mgcontent" />
+    <None Include="$(MSBuildThisFileDirectory)Content\obj\DesktopGL\net8.0\Content\.mgstats" />
+    <None Include="$(MSBuildThisFileDirectory)Content\obj\DesktopGL\net8.0\Content\CircleSprite.mgcontent" />
+    <None Include="$(MSBuildThisFileDirectory)Content\obj\DesktopGL\net8.0\Content\Font.mgcontent" />
+    <None Include="$(MSBuildThisFileDirectory)Content\obj\DesktopGL\net8.0\Content\GroundSprite.mgcontent" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Roboto-Regular.ttf" />
+  </ItemGroup>
+</Project>

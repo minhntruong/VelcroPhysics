@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>2188babb-409b-446f-b557-ce8b4c47d223</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Benchmarks._Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Code\DummyStopWatch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Code\MeasuredBenchmark.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Code\TestClasses\Class32.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Code\TestClasses\Class64.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Code\TestClasses\Class8.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Code\TestClasses\Dummy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Code\TestClasses\PoolObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Code\TestClasses\Struct32.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Code\TestClasses\Struct64.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Code\TestClasses\Struct8.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Code\UnmeasuredBenchmark.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Program.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\CLR\ClassBenchmarks.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\CLR\FieldPropertyBenchmarks.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\CLR\StopWatchBenchmark.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Collision\BroadphaseBenchmark.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Collision\DistanceBenchmark.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Collision\TOIBenchmark.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Primitives\AabbBenchmark.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Primitives\Vector2Benchmark.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Shared\GraphBenchmark.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Shared\PoolBenchmarks.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\RandomExtensions.cs" />
+  </ItemGroup>
+</Project>

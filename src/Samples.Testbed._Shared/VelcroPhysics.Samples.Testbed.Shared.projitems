@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>6efba8a9-a407-4029-bdd0-651d22a87386</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>VelcroPhysics.Samples.Testbed.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Framework\GameSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Framework\Input\GamePadManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Framework\Input\KeyboardManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Framework\Input\MouseButton.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Framework\Input\MouseManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Framework\Rand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Framework\Test.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Game1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Program.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TestEntries.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\AddPairTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\ApplyForceTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\BodyTypesTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\BoxStackTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\BreakableTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\BridgeTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\BulletTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\CantileverTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\CarTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\ChainProblemTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\ChainTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\CharacterCollisionTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\CircleStackTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\CollisionFilteringTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\CollisionProcessingTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\CompoundShapesTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\ConfinedTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\ContinuousTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\ConvexHullTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\ConveyorBeltTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\DistanceJointTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\DistanceTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\DominosTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\DumpLoaderTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\DynamicTreeTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\EdgeShapesTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\EdgeTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\FrictionTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\GearJointTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Heavy1Test.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Heavy2Test.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\MobileBalancedTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\MobileUnbalancedTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\MotorJointTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\New\RopeTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\PinballTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\PlatformerTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\PolygonCollisionTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\PolygonShapesTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\PrismaticJointTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\PulleyJointTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\PyramidTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\RaycastTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\RestitutionTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\RevoluteJointTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\SensorsTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\ShapeCastTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\ShapeEditingTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\SkierTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\SliderCrank1Test.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\SliderCrank2Test.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\TheoJansenTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\TilesTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\TimeOfImpactTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\TumblerTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Velcro\AngleJointTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Velcro\BuoyancyTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Velcro\CheckPolygonTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Velcro\CircleBenchmarkTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Velcro\CirclePenetrationTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Velcro\CloneTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Velcro\CollisionCallbackTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Velcro\ConvexHull2Test.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Velcro\CuttingTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Velcro\DeletionTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Velcro\DestructibleTerrainTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Velcro\ExplosionTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Velcro\GravityControllerTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Velcro\LockTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Velcro\PathTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Velcro\RockBreakTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Velcro\RoundedRectangleTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Velcro\SerializationTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Velcro\SimpleWindForceTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Velcro\SimplificationTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Velcro\TextureVerticesTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Velcro\TriangulationTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\Velcro\YuPengPolygonTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\WebTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\WheelJointTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tests\WreckingBallTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Content\obj\DesktopGL\Content\" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\bin\DesktopGL\Content\Font.xnb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\bin\DesktopGL\Content\Rock.xnb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\bin\DesktopGL\Content\Terrain.xnb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\bin\DesktopGL\Content\Texture.xnb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Font.spritefont" />
+    <None Include="$(MSBuildThisFileDirectory)Content\obj\DesktopGL\net8.0\Content\.mgcontent" />
+    <None Include="$(MSBuildThisFileDirectory)Content\obj\DesktopGL\net8.0\Content\.mgstats" />
+    <None Include="$(MSBuildThisFileDirectory)Content\obj\DesktopGL\net8.0\Content\Font.mgcontent" />
+    <None Include="$(MSBuildThisFileDirectory)Content\obj\DesktopGL\net8.0\Content\Rock.mgcontent" />
+    <None Include="$(MSBuildThisFileDirectory)Content\obj\DesktopGL\net8.0\Content\Terrain.mgcontent" />
+    <None Include="$(MSBuildThisFileDirectory)Content\obj\DesktopGL\net8.0\Content\Texture.mgcontent" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Roboto-Regular.ttf" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Rock.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Terrain.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Texture.png" />
+    <None Include="$(MSBuildThisFileDirectory)Data\2.dat" />
+    <None Include="$(MSBuildThisFileDirectory)Data\bird.dat" />
+    <None Include="$(MSBuildThisFileDirectory)Data\debug.dat" />
+    <None Include="$(MSBuildThisFileDirectory)Data\diamond.dat" />
+    <None Include="$(MSBuildThisFileDirectory)Data\dude.dat" />
+    <None Include="$(MSBuildThisFileDirectory)Data\funny.dat" />
+    <None Include="$(MSBuildThisFileDirectory)Data\kzer-za.dat" />
+    <None Include="$(MSBuildThisFileDirectory)Data\nazca_monkey.dat" />
+    <None Include="$(MSBuildThisFileDirectory)Data\star.dat" />
+    <None Include="$(MSBuildThisFileDirectory)Data\strange.dat" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>6efba8a9-a407-4029-bdd0-651d22a87386</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Samples.Demo._Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Demos\D01_SingleFixture.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Demos\D02_MultipleFixtures.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Demos\D03_StaticBodies.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Demos\D04_StackedBodies.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Demos\D05_CollisionCategories.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Demos\D06_Restitution.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Demos\D07_Friction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Demos\D08_DistanceAngleJoint.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Demos\D09_DynamicJoints.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Demos\D10_Ragdoll.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Demos\D11_SoftBody.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Demos\D12_WebOfGoo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Demos\D13_TheoJansenWalker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Demos\D14_RacingCar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Demos\D15_SVGtoBody.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Demos\D16_BreakableBody.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Demos\Prefabs\Agent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Demos\Prefabs\Border.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Demos\Prefabs\JumpySpider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Demos\Prefabs\Objects.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Demos\Prefabs\ObjectType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Demos\Prefabs\Pyramid.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Demos\Prefabs\Ragdoll.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Demos\Prefabs\TheoJansenWalker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Demos\Prefabs\WebOfGoo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Game1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Managers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MediaSystem\Colors.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MediaSystem\FontManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MediaSystem\Graphics\LineBatch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MediaSystem\Graphics\QuadRenderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MediaSystem\Graphics\Sprite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MediaSystem\SoundManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MediaSystem\TextureManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Program.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ScreenSystem\Camera2D.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ScreenSystem\FrameRateCounter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ScreenSystem\InputHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ScreenSystem\MouseButtons.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ScreenSystem\ScreenManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ScreenSystem\ScreenState.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\BackgroundScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\DescriptionBoxScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\GameScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\MenuEntry.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\MenuScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\MenuSlider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\OptionEntry.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\OptionsScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\PhysicsDemoScreen.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Fonts\DetailsFont.spritefont" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Fonts\MenuFont.spritefont" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Pipeline\Body.svg" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Pipeline\BreakableBody.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Common\Buttons.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\Common\Checkmark.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\Common\Cursor.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\Common\SamplesLogo.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\DemoGFX\Car.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\DemoGFX\Club.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\DemoGFX\Cookie.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\DemoGFX\cookie_orig.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\DemoGFX\Diamond.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\DemoGFX\Goo.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\DemoGFX\Heart.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\DemoGFX\Link.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\DemoGFX\Spade.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\DemoGFX\Wheel.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\DemoSFX\Click.wav" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\Fonts\Roboto-Regular.ttf" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\Materials\Square.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\Materials\Stripe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Content\bin\DesktopGL\Content\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Content\obj\DesktopGL\Content\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)Content\Fonts\DebugFont.spritefont">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+</Project>
