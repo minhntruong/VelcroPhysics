@@ -10,8 +10,11 @@
 
 #-------------------------------- References --------------------------------#
 
-/reference:C:\Projects-NoSCC\MonoGame\Velcro8_4\Content.SVGImport.DesktopGL\bin\Debug\net8.0\Genbox.VelcroPhysics.MonoGame.Content.SVGImport.dll
-/reference:C:\Projects-NoSCC\MonoGame\Velcro8_4\Content.TextureToVertices.DesktopGL\bin\Debug\net8.0\Genbox.VelcroPhysics.MonoGame.Content.TextureToVertices.dll
+/reference:C:\Projects-Links\Projects-GitHub\VelcroPhysics\src\Content.SVGImport\bin\Debug\net8.0\Content.SVGImport.dll
+/reference:C:\Projects-Links\Projects-GitHub\VelcroPhysics\src\Content.TextureToVertices\bin\Debug\net8.0\Content.TextureToVertices.dll
+
+#/reference:C:\Projects-NoSCC\MonoGame\Velcro8_4\Content.SVGImport.DesktopGL\bin\Debug\net8.0\Genbox.VelcroPhysics.MonoGame.Content.SVGImport.dll
+#/reference:C:\Projects-NoSCC\MonoGame\Velcro8_4\Content.TextureToVertices.DesktopGL\bin\Debug\net8.0\Genbox.VelcroPhysics.MonoGame.Content.TextureToVertices.dll
 
 #---------------------------------- Content ---------------------------------#
 

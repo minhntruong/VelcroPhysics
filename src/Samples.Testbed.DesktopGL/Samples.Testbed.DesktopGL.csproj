@@ -27,8 +27,8 @@
     <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.*" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Utils.DebugView.DesktopGL\Utils.DebugView.DesktopGL.csproj" />
-    <ProjectReference Include="..\VelcroPhysics.DesktopGL\VelcroPhysics.DesktopGL.csproj" />
+    <ProjectReference Include="..\Utils.DebugView\Utils.DebugView.csproj" />
+    <ProjectReference Include="..\VelcroPhysics\VelcroPhysics.csproj" />
   </ItemGroup>
   <Target Name="RestoreDotnetTools" BeforeTargets="CollectPackageReferences">
     <Message Text="Restoring dotnet tools (this might take a while depending on your internet speed and should only happen upon building your project for the first time, or after upgrading MonoGame, or clearing your nuget cache)" Importance="High" />

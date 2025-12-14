@@ -5,8 +5,5 @@
   <ItemGroup>
     <PackageReference Include="MonoGame.Framework.WindowsDX" Version="3.8.*" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\VelcroPhysics.WindowsDX\VelcroPhysics.WindowsDX.csproj" />
-  </ItemGroup>
   <Import Project="..\Utils.DebugView._Shared\VelcroPhysics.DebugView.Shared.projitems" Label="Shared" />
 </Project>

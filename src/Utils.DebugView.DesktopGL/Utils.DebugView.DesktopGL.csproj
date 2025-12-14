@@ -7,8 +7,5 @@
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\VelcroPhysics.DesktopGL\VelcroPhysics.DesktopGL.csproj" />
-  </ItemGroup>
   <Import Project="..\Utils.DebugView._Shared\VelcroPhysics.DebugView.Shared.projitems" Label="Shared" />
 </Project>

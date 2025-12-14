@@ -133,4 +133,10 @@
     <None Include="$(MSBuildThisFileDirectory)Data\star.dat" />
     <None Include="$(MSBuildThisFileDirectory)Data\strange.dat" />
   </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)Content\Fonts\DebugFont.spritefont">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
 </Project>

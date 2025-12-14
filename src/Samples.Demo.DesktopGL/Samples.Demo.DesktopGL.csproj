@@ -27,9 +27,9 @@
     <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.*" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Content.SVGImport.DesktopGL\Content.SVGImport.DesktopGL.csproj" />
-    <ProjectReference Include="..\Utils.DebugView.DesktopGL\Utils.DebugView.DesktopGL.csproj" />
-    <ProjectReference Include="..\VelcroPhysics.DesktopGL\VelcroPhysics.DesktopGL.csproj" />
+    <ProjectReference Include="..\Content.SVGImport\Content.SVGImport.csproj" />
+    <ProjectReference Include="..\Utils.DebugView\Utils.DebugView.csproj" />
+    <ProjectReference Include="..\VelcroPhysics\VelcroPhysics.csproj" />
   </ItemGroup>
   <Import Project="..\Samples.Demo._Shared\Samples.Demo._Shared.projitems" Label="Shared" />
 </Project>
